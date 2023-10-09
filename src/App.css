@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+.object-fit-fill {
+    object-fit: fill;
+  }
+  
+  .object-fit-contain {
+    object-fit: contain;
+  }
+  
+  .object-fit-cover {
+    object-fit: cover;
+  }
+  
+  .object-fit-none {
+    object-fit: none;
+  }
+  
+  .object-fit-scale-down {
+    object-fit: scale-down;
+  }
